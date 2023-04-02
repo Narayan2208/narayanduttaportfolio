@@ -3,7 +3,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = ()=>{
- menuIcon.classList.toggle('bx-x')
+ menuIcon.classList.toggle('fa-times')   
  navbar.classList.toggle('active')  
  
 }
@@ -46,12 +46,12 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading',  {origin:'top'})
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form',  {origin:'bottom'})
 ScrollReveal().reveal('.home-content h1, .about-img',  {origin:'left'})
-ScrollReveal().reveal('.home-content p, .about-content',  {origin:'right'})
+ScrollReveal().reveal('.home-content p, .about-content .slider-thumb .coding1' ,  {origin:'right'})
 
 
 // Typing animation
 const typed = new Typed('.multiple-text', {
-    strings : ['Full stack web developer', 'Traveller', 'Foddie'],
+    strings : ['MERN Stack Web Developer', 'Traveller', 'Foddie'],
     typeSpeed: 100,
     backSpeed:100,
     backDelay:1000,
@@ -85,5 +85,4 @@ $('.count').each(function () {
         }
     });
 });
-
 
