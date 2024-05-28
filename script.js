@@ -86,3 +86,11 @@ $('.count').each(function () {
     });
 });
 
+
+  document
+    .getElementById("downloadBtn")
+    .addEventListener("click", function (event) {
+     
+        window.location.href =
+          "https://drive.google.com/file/d/1JLaSZ8LcclnsM16ZJFrhAa-F2UHvlMlk/view?usp=sharing "; 
+    });
